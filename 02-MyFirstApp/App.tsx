@@ -27,7 +27,8 @@ export const App = () => {
       {/* <FlexScreen/> */}
       {/* <TestCardsScreen/> */}
 
-      <TasksScreen/>
+      {/* <TasksScreen/> */}
+      <CardProduct/>
       
       {/* <MainButton title='TEST' color='gray' onPress={showAlert}/>
       <MainButton title='TEST' color='green' onPress={showAlert}/>
