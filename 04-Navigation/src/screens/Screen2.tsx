@@ -1,7 +1,6 @@
-import { useNavigation } from '@react-navigation/core'
 import { StackScreenProps } from '@react-navigation/stack'
 import React, { useEffect } from 'react'
-import { Button, Text, View } from 'react-native'
+import { View,Text,Button } from 'react-native'
 
 import { stylesheet } from '../theme/AppTheme'
 

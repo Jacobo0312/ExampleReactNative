@@ -2,6 +2,17 @@
 
 import { StyleSheet } from "react-native";
 
+export const COLORS = {
+    primary: "red",
+    secondary: "purple",
+    white: "#FFFFFF",
+    black: "#000000",
+    gray: "#6A6A6A",
+    lightGray: "#F2F2F2",
+    darkGray: "#2D2D2D",
+    transparent: "transparent",
+};
+
 
 export const stylesheet =()=> StyleSheet.create({
     globalMargin: {
@@ -33,6 +44,27 @@ export const stylesheet =()=> StyleSheet.create({
     textButton: {
         fontSize: 20,
         fontWeight: 'bold'
+    },
+    avatarContainer: {
+        alignItems: 'center',
+        marginTop: 20
+    },
+    avatar: {
+        width: 150,
+        height: 150,
+        borderRadius: 100
+    },
+    menuContainer: {
+        marginVertical: 30,
+        marginHorizontal: 50
+    },
+    menuItem: {
+        marginVertical: 10
+    },
+    menuText: {
+        fontSize: 20
     }
+    
+
 
 })
