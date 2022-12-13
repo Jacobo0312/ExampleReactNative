@@ -80,11 +80,6 @@ const DrawerContent=(props:DrawerContentComponentProps)=>{
 
             </View>
             
-
-
-
-
-
         </DrawerContentScrollView>
 
             
